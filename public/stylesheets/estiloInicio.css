@@ -110,12 +110,17 @@
   width: 50px; 
   height: auto; 
   margin-left: 5px;
-  transition: content 1s ease;
+  transition: content 5s ease;
 }
   
 .download-link:hover::after {
     content: url('/images/iconos/icono_descarga_negro.svg');
     width: 55px;
+}
+
+.contenedorUbiMapa iframe {
+    width: 90%;
+    height: 90vh;
 }
 
 .seguinosRedes{
